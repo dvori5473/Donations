@@ -42,8 +42,7 @@ export default function DonationForm({ setIsAdding, setShowDonationsList ,setSho
         
         onSubmit: (data) => {
             const donationWithId = { ...data, id: nextId };
-            console.log(donationWithId);
-            
+          
             addDonation(donationWithId).unwrap()
                 .then(() => {
                     setNextId(nextId + 1);

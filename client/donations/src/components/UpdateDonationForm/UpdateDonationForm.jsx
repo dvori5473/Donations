@@ -11,7 +11,6 @@ const UpdateDonationForm = ({ donation, setIsEditing,setExpandedId,setExpanded,c
 
     useEffect(() => {
         if (isSuccess) {
-            console.log("gggggggg");
             
             setIsEditing(false);
             setExpanded(false);
