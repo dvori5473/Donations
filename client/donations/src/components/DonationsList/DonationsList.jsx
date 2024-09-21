@@ -4,7 +4,6 @@ import { List, ListItem, Box, IconButton, Divider,CircularProgress  } from '@mui
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
 import DeleteIcon from '@mui/icons-material/Delete';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ModeIcon from '@mui/icons-material/Mode';
@@ -12,7 +11,7 @@ import { useGetAllDonationsQuery } from '../../features/donation/DonationApiSlic
 import UpdateDonationForm from '../UpdateDonationForm/UpdateDonationForm';
 import './DonationsList.css'; 
 
-export default function DonationsList({ setShowDonationsList, setIsEditing }) {
+export default function DonationsList({ setShowDonationsList, setIsEditing ,isEditing}) {
     const { data:donations=[], isSuccess, isLoading } = useGetAllDonationsQuery();
    
     useEffect(() => {  
@@ -28,9 +27,11 @@ export default function DonationsList({ setShowDonationsList, setIsEditing }) {
         if (expandedId === id) {
             setExpanded(false);
             setExpandedId(null);
+            setIsEditing(false)
         } else {
             setExpanded(true);
             setExpandedId(id);
+            setIsEditing(true)
         }
     };
     if (isLoading) {
@@ -38,7 +39,6 @@ export default function DonationsList({ setShowDonationsList, setIsEditing }) {
     }
     
     const closeAccordion = () => {
-        // setExpanded(false);
         setExpandedId(null);
     };
         
@@ -82,8 +82,8 @@ export default function DonationsList({ setShowDonationsList, setIsEditing }) {
                             </Box>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <UpdateDonationForm donation={donation} setIsEditing={setIsEditing} setExpanded={setExpanded} setExpandedId={setExpandedId} closeAccordion={closeAccordion}/>
-                        </AccordionDetails>
+{                         isEditing  && <UpdateDonationForm donation={donation} setIsEditing={setIsEditing} setExpanded={setExpanded} setExpandedId={setExpandedId} closeAccordion={closeAccordion}/>
+}                        </AccordionDetails>
                     </Accordion>
                 </ListItem>
             ))}
