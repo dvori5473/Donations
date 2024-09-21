@@ -1,0 +1,15 @@
+D:\c#\DonationServer\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\DonationServer\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\c#\DonationServer\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\c#\DonationServer\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\c#\DonationServer\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\c#\DonationServer\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\c#\DonationServer\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\c#\DonationServer\Repositories\bin\Debug\net8.0\Entities.dll
+D:\c#\DonationServer\Repositories\bin\Debug\net8.0\Entities.pdb
+D:\c#\DonationServer\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\c#\DonationServer\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+D:\c#\DonationServer\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\c#\DonationServer\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\c#\DonationServer\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\c#\DonationServer\Repositories\obj\Debug\net8.0\ref\Repositories.dll

@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\c#\\DonationServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF22D0B-987F-44ED-8B91-A01A4E72CD08}|Repositories\\Repositories.csproj|d:\\c#\\donationserver\\repositories\\donationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DF22D0B-987F-44ED-8B91-A01A4E72CD08}|Repositories\\Repositories.csproj|solutionrelative:repositories\\donationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6057BF-EFDD-4494-BC76-153C7190435D}|DonationServer\\DonationServer.csproj|d:\\c#\\donationserver\\donationserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6057BF-EFDD-4494-BC76-153C7190435D}|DonationServer\\DonationServer.csproj|solutionrelative:donationserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B9D787-8810-4ABA-AE28-C0F95CCCF434}|Entities\\Entities.csproj|d:\\c#\\donationserver\\entities\\donation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B9D787-8810-4ABA-AE28-C0F95CCCF434}|Entities\\Entities.csproj|solutionrelative:entities\\donation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6057BF-EFDD-4494-BC76-153C7190435D}|DonationServer\\DonationServer.csproj|d:\\c#\\donationserver\\donationserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4D6057BF-EFDD-4494-BC76-153C7190435D}|DonationServer\\DonationServer.csproj|solutionrelative:donationserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6057BF-EFDD-4494-BC76-153C7190435D}|DonationServer\\DonationServer.csproj|d:\\c#\\donationserver\\donationserver\\controllers\\donationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6057BF-EFDD-4494-BC76-153C7190435D}|DonationServer\\DonationServer.csproj|solutionrelative:donationserver\\controllers\\donationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A08E0991-AF02-4694-9260-FB977BA02F51}|Services\\Services.csproj|d:\\c#\\donationserver\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A08E0991-AF02-4694-9260-FB977BA02F51}|Services\\Services.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A08E0991-AF02-4694-9260-FB977BA02F51}|Services\\Services.csproj|d:\\c#\\donationserver\\services\\donationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A08E0991-AF02-4694-9260-FB977BA02F51}|Services\\Services.csproj|solutionrelative:services\\donationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A08E0991-AF02-4694-9260-FB977BA02F51}|Services\\Services.csproj|d:\\c#\\donationserver\\services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A08E0991-AF02-4694-9260-FB977BA02F51}|Services\\Services.csproj|solutionrelative:services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A08E0991-AF02-4694-9260-FB977BA02F51}|Services\\Services.csproj|d:\\c#\\donationserver\\services\\idonationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A08E0991-AF02-4694-9260-FB977BA02F51}|Services\\Services.csproj|solutionrelative:services\\idonationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DF22D0B-987F-44ED-8B91-A01A4E72CD08}|Repositories\\Repositories.csproj|d:\\c#\\donationserver\\repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5DF22D0B-987F-44ED-8B91-A01A4E72CD08}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6057BF-EFDD-4494-BC76-153C7190435D}|DonationServer\\DonationServer.csproj|d:\\c#\\donationserver\\donationserver\\donationserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4D6057BF-EFDD-4494-BC76-153C7190435D}|DonationServer\\DonationServer.csproj|solutionrelative:donationserver\\donationserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Donation.cs",
+              "DocumentMoniker": "D:\\c#\\DonationServer\\Entities\\Donation.cs",
+              "RelativeDocumentMoniker": "Entities\\Donation.cs",
+              "ToolTip": "D:\\c#\\DonationServer\\Entities\\Donation.cs",
+              "RelativeToolTip": "Entities\\Donation.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:43:41.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DonationRepository.cs",
+              "DocumentMoniker": "D:\\c#\\DonationServer\\Repositories\\DonationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\DonationRepository.cs",
+              "ToolTip": "D:\\c#\\DonationServer\\Repositories\\DonationRepository.cs",
+              "RelativeToolTip": "Repositories\\DonationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T09:35:57.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\c#\\DonationServer\\DonationServer\\Program.cs",
+              "RelativeDocumentMoniker": "DonationServer\\Program.cs",
+              "ToolTip": "D:\\c#\\DonationServer\\DonationServer\\Program.cs",
+              "RelativeToolTip": "DonationServer\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T09:44:01.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DonationController.cs",
+              "DocumentMoniker": "D:\\c#\\DonationServer\\DonationServer\\Controllers\\DonationController.cs",
+              "RelativeDocumentMoniker": "DonationServer\\Controllers\\DonationController.cs",
+              "ToolTip": "D:\\c#\\DonationServer\\DonationServer\\Controllers\\DonationController.cs",
+              "RelativeToolTip": "DonationServer\\Controllers\\DonationController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:34:35.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\c#\\DonationServer\\DonationServer\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "DonationServer\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\c#\\DonationServer\\DonationServer\\Properties\\launchSettings.json",
+              "RelativeToolTip": "DonationServer\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-18T08:33:22.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DonationService.cs",
+              "DocumentMoniker": "D:\\c#\\DonationServer\\Services\\DonationService.cs",
+              "RelativeDocumentMoniker": "Services\\DonationService.cs",
+              "ToolTip": "D:\\c#\\DonationServer\\Services\\DonationService.cs",
+              "RelativeToolTip": "Services\\DonationService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwBgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T09:20:21.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\c#\\DonationServer\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService.cs",
+              "ToolTip": "D:\\c#\\DonationServer\\Services\\EmailService.cs",
+              "RelativeToolTip": "Services\\EmailService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T09:50:35.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Services.csproj",
+              "DocumentMoniker": "D:\\c#\\DonationServer\\Services\\Services.csproj",
+              "RelativeDocumentMoniker": "Services\\Services.csproj",
+              "ToolTip": "D:\\c#\\DonationServer\\Services\\Services.csproj",
+              "RelativeToolTip": "Services\\Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-18T09:25:08.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Repositories.csproj",
+              "DocumentMoniker": "D:\\c#\\DonationServer\\Repositories\\Repositories.csproj",
+              "RelativeDocumentMoniker": "Repositories\\Repositories.csproj",
+              "ToolTip": "D:\\c#\\DonationServer\\Repositories\\Repositories.csproj",
+              "RelativeToolTip": "Repositories\\Repositories.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-18T09:40:32.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDonationService.cs",
+              "DocumentMoniker": "D:\\c#\\DonationServer\\Services\\IDonationService.cs",
+              "RelativeDocumentMoniker": "Services\\IDonationService.cs",
+              "ToolTip": "D:\\c#\\DonationServer\\Services\\IDonationService.cs",
+              "RelativeToolTip": "Services\\IDonationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T09:42:16.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DonationServer.csproj",
+              "DocumentMoniker": "D:\\c#\\DonationServer\\DonationServer\\DonationServer.csproj",
+              "RelativeDocumentMoniker": "DonationServer\\DonationServer.csproj",
+              "ToolTip": "D:\\c#\\DonationServer\\DonationServer\\DonationServer.csproj",
+              "RelativeToolTip": "DonationServer\\DonationServer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-18T08:37:45.972Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

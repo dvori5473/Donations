@@ -1,0 +1,56 @@
+/* DonationsList.css */
+
+.list-container {
+    direction: rtl;
+    width: 70%;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.accordion {
+    width: 90%;
+    margin-right: 5%;
+    border-radius: 30%;
+    padding-right: 5px;
+    direction: rtl;
+}
+
+.accordion-expanded {
+    border: 2px solid #247acf;
+}
+
+.accordion-collapsed {
+    border: 1px solid #2b2c2d;
+}
+
+.accordion-summary {
+    width: 100%;
+    direction: rtl;
+}
+
+.accordion-summary-expanded {
+    background-color: #e0f7fa;
+    height: 20px;
+}
+
+.accordion-summary-collapsed {
+    height: 60px;
+    background-color:transparent
+}
+
+.icon-container {
+    display: flex;
+    width: 100%;
+}
+
+.icon-button {
+    margin-left: 2px;
+}
+
+.icon-button.mode {
+    margin-right: 500px;
+}
+
+.divider {
+    margin: 0 8px; /* Adjust margin as needed */
+}

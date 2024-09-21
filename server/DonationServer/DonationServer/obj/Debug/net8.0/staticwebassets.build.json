@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Kjp4H8nkLSyBlkGCM7XztHK9cxqCbUAPh114F1xUf4c=",
+  "Source": "DonationServer",
+  "BasePath": "_content/DonationServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
