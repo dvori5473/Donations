@@ -5,6 +5,8 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ClearIcon from '@mui/icons-material/Clear';
 import { useUpdateDonationMutation } from '../../features/donation/DonationApiSlice';
  import './UpdateDonationForm.css'; 
+import { CacheProvider, ThemeProvider } from '@emotion/react';
+import { cacheRtl, theme } from '../../theme/rtl';
 
 const UpdateDonationForm = ({ donation, setIsEditing,setExpandedId,setExpanded,closeAccordion}) => {
     const [updateDonation, { isSuccess, data }] = useUpdateDonationMutation();
@@ -59,14 +61,17 @@ const UpdateDonationForm = ({ donation, setIsEditing,setExpandedId,setExpanded,c
     
 
     return (
-        <form onSubmit={formik.handleSubmit} className={`form-container flex flex-wrap gap-3 p-fluid`}>
-            <div className="row">
+        <form onSubmit={formik.handleSubmit} className={`form-container flex flex-wrap gap-3 p-fluid`} >
+             <CacheProvider value={cacheRtl}>
+             <ThemeProvider theme={theme}>
+            <div className="row" >
                 <TextField
                     id="filled-basic"
                     label="שם הישות המדינית הזרה"
                     variant="outlined"
                     type="text"
                     className="text-field"
+                    dir='rtl'
                     required
                     error={isFormFieldInvalid("name")}
                     helperText={getFormErrorMessage("name")}
@@ -168,6 +173,8 @@ const UpdateDonationForm = ({ donation, setIsEditing,setExpandedId,setExpanded,c
                     value={formik.values.conversionRate}
                     onChange={formik.handleChange} />
             </div>
+            </ThemeProvider>
+            </CacheProvider>
             <div className="button-container">
                 <Button label="submit" type="submit" variant="contained" className="button" style={{borderRadius:'50px', marginRight:'20px'}}>שמירה</Button>
                 <Button label="clean" type="button" variant="outlined" onClick={handleClear} className={`button button-margin`} style={{borderRadius:'50px'}}>ניקוי</Button>

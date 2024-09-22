@@ -11,7 +11,7 @@ import { useGetAllDonationsQuery } from '../../features/donation/DonationApiSlic
 import UpdateDonationForm from '../UpdateDonationForm/UpdateDonationForm';
 import './DonationsList.css'; 
 
-export default function DonationsList({ setShowDonationsList, setIsEditing ,isEditing}) {
+export default function DonationsList({  setIsEditing }) {
     const { data:donations=[], isSuccess, isLoading } = useGetAllDonationsQuery();
    
     useEffect(() => {  
@@ -81,9 +81,8 @@ export default function DonationsList({ setShowDonationsList, setIsEditing ,isEd
                                 <Divider orientation="vertical" variant="middle" flexItem className="divider" />
                             </Box>
                         </AccordionSummary>
-                        <AccordionDetails>
-{                         isEditing  && <UpdateDonationForm donation={donation} setIsEditing={setIsEditing} setExpanded={setExpanded} setExpandedId={setExpandedId} closeAccordion={closeAccordion}/>
-}                        </AccordionDetails>
+                        <AccordionDetails> <UpdateDonationForm donation={donation} setIsEditing={setIsEditing} setExpanded={setExpanded} setExpandedId={setExpandedId} closeAccordion={closeAccordion}/>
+                       </AccordionDetails>
                     </Accordion>
                 </ListItem>
             ))}

@@ -3,8 +3,10 @@ import { useFormik } from 'formik';
 import { InputAdornment, TextField, Button } from '@mui/material';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { useAddDonationMutation } from '../../features/donation/DonationApiSlice';
-import { createTheme } from '@mui/material/styles';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 import './DonationForm.css';
+import { CacheProvider } from '@emotion/react';
+import { cacheRtl, theme } from '../../theme/rtl';
 
 export default function DonationForm({ setIsAdding, setShowDonationsList ,setShowButton}) {
     const [nextId, setNextId] = useState(1);
@@ -54,9 +56,6 @@ export default function DonationForm({ setIsAdding, setShowDonationsList ,setSho
                 });
         }
     });
-    // const theme = createTheme({
-    //     direction: 'rtl',
-    //   });
     const isFormFieldInvalid = (name) => !!(formik.touched[name] && formik.errors[name]);
 
     const getFormErrorMessage = (name) => {
@@ -69,18 +68,19 @@ export default function DonationForm({ setIsAdding, setShowDonationsList ,setSho
     const hebrewEnglishRegex = /^[a-zA-Zא-ת\s]+$/;
 
     return (
-        <div className="card" dir='rtl'>
-            <form onSubmit={formik.handleSubmit} className="form" dir='rtl'>
+        <div className="card" dir="rtl">
+            <form onSubmit={formik.handleSubmit} className="form" >
                 <h1 className="form-header">הוספת דיווח על עמותה</h1>
-
-                <div className="row" dir='rtl'>
-                    
+               <CacheProvider value={cacheRtl}>
+               <ThemeProvider theme={theme}>
+                <div className="row" >
+                
                     <TextField
                         id="name"
                         label="שם הישות המדינית הזרה"
                         variant="outlined"
                         type="text"
-                        sx={{ width: '20%', marginLeft: '25px',borderRadius:"50px" }}
+                        sx={{ width: '20%',borderRadius:"50px" }}
                         required
                         dir='rtl'
                         error={isFormFieldInvalid("name")}
@@ -97,7 +97,7 @@ export default function DonationForm({ setIsAdding, setShowDonationsList ,setSho
                         label="סכום התרומה בשח"
                         variant="outlined"
                         type="number"
-                        sx={{ width: '20%', marginLeft: '25px',borderRadius:"50px" }}
+                        sx={{ width: '20%', marginLeft: '25px',borderRadius:"50px",marginRight:'25px' }}
                         required
                         error={isFormFieldInvalid("sum")}
                         helperText={getFormErrorMessage("sum")}
@@ -124,7 +124,10 @@ export default function DonationForm({ setIsAdding, setShowDonationsList ,setSho
                         }}
                     />
                 </div>
-
+                </ThemeProvider>
+                </CacheProvider>
+                <CacheProvider value={cacheRtl}>
+                <ThemeProvider theme={theme}>
                 <div className="row">
                     <TextField
                         id="vocation"
@@ -138,7 +141,10 @@ export default function DonationForm({ setIsAdding, setShowDonationsList ,setSho
                         value={formik.values.vocation}
                         onChange={formik.handleChange} />
                 </div>
-
+                </ThemeProvider>
+                </CacheProvider>
+                <CacheProvider value={cacheRtl}>
+                <ThemeProvider theme={theme}>
                 <div className="row">
                     <TextField
                         id="condition"
@@ -149,14 +155,17 @@ export default function DonationForm({ setIsAdding, setShowDonationsList ,setSho
                         value={formik.values.condition}
                         onChange={formik.handleChange} />
                 </div>
-
+                </ThemeProvider>
+                </CacheProvider>
+                <CacheProvider value={cacheRtl}>
+                <ThemeProvider theme={theme}>
                 <div className="row">
                     <TextField
                         id="typeOfCurrency"
                         label="סוג המטבע"
                         variant="outlined"
                         type="text"
-                        sx={{ width: '20%', marginLeft: '25px' ,borderRadius:"50px"}}
+                        sx={{ width: '20%',borderRadius:"50px"}}
                         required
                         error={isFormFieldInvalid("typeOfCurrency")}
                         helperText={getFormErrorMessage("typeOfCurrency")}
@@ -176,14 +185,15 @@ export default function DonationForm({ setIsAdding, setShowDonationsList ,setSho
                         label="שער ההמרה"
                         variant="outlined"
                         type="number"
-                        sx={{ width: '20%' }}
+                        sx={{ width: '20%' ,marginLeft:'25px'}}
                         required
                         error={isFormFieldInvalid("conversionRate")}
                         helperText={getFormErrorMessage("conversionRate")}
                         value={formik.values.conversionRate}
                         onChange={formik.handleChange} />
                 </div>
-
+                </ThemeProvider>
+                </CacheProvider>
                 <div className="button-container">
                     <Button className="button" type="submit" variant="contained" style={{borderRadius:'50px',height:'50px',width:'25%'}}>שמירה</Button>
                     <Button className={`button button-clear`}type="button"  variant="outlined" onClick={handleClear}style={{width:'25%',height:'50px',borderRadius:'50px',marginLeft:'10px'}}>ניקוי</Button>

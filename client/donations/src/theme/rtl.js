@@ -9,7 +9,7 @@ export const theme = createTheme({
     MuiTextField: {
       styleOverrides: {
         root: {
-          direction: 'rtl',
+          direction: 'ltr',
         },
       },
     },

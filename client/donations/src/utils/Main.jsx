@@ -20,7 +20,7 @@ const Main=()=>{
     return(
         <div style={{marginTop:'30px'}}>
         {isAdding&&<DonationForm setIsAdding={setIsAdding} setShowDonationsList={setShowDonationsList} setShowButton={setShowButton}/>}
-        {showDonationsList&&<DonationsList setShowDonationsList={setShowDonationsList} setIsEditing={setIsEditing} isEditing={isEditing}/>}
+        {showDonationsList&&<DonationsList setIsEditing={setIsEditing} />}
 {showButton&&<Button variant="contained" onClick={handleClick}style={{ borderRadius: '50px', width: '10%' ,marginLeft:'72%',height:'50px'}}>הוספת תרומה</Button>
 }
         </div>

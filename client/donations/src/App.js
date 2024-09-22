@@ -11,14 +11,14 @@ function App() {
   return (
 
     // <CacheProvider value={cacheRtl}>
-      // {/* <ThemeProvider theme={theme}> */}
-          <>
-            <Routes>
-              <Route path='/' element={<Main />}></Route>
-            </Routes>
-          </>
-      // {/* </ThemeProvider> */}
-    // </CacheProvider>
+      <ThemeProvider theme={theme}>
+        <>
+          <Routes>
+            <Route path='/' element={<Main />}></Route>
+          </Routes>
+        </>
+      </ThemeProvider>
+    /* </CacheProvider> */
 
   );
 }
